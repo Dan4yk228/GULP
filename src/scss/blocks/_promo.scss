@@ -13,9 +13,44 @@
         font-size: 42px;
         font-weight: 700;
         text-transform: uppercase;
+        line-height: 42px;
     }
     &__subheader{
-        
+        margin-top: 17px;
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: uppercase;
+        line-height: 24px;
     }
-
+    &__icons{
+        margin-top: 60px;
+        width: 424px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon{
+        width: 106px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: 500;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+    }
+    &__link{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 18px;
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: underline;
+            text-transform: uppercase;
+        }
+    }
 }
