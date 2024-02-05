@@ -1,5 +1,5 @@
 .advantages{
-    padding: 73px, 0, 83px, 0;
+    padding: 73px 0 83px 0;
     background: rgb(246, 246, 246);
     &__wrapper{
         display: flex;
@@ -11,5 +11,14 @@
         flex-direction: column;
         align-items: center;
         max-width: 269px;
+    }
+    &__icon{
+        margin-bottom: 30px;
+    }
+    &__subtitle {
+        margin-top: 38px;
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
     }
 }
