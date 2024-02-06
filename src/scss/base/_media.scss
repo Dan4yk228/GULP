@@ -1,0 +1,13 @@
+@media screen and (max-width: 1024px){
+	.header{
+		&__logo{
+			padding-left: 30px;
+		}
+		&__contacts{
+			padding-right: 30px;
+		}
+	}
+}
+@media screen and (max-width: 767px) {
+
+}
